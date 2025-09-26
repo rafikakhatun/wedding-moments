@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Navbar from './component/Navbar';
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
   return (
     <>
 
-    <h1>hello</h1>
+    <Navbar></Navbar>
       
     </>
   )
