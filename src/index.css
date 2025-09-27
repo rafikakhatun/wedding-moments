@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+
+.body-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-stylish {
+    font-family: 'Great Vibes', cursive;
+}
