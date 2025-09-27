@@ -1,13 +1,12 @@
 // src/components/Navbar.jsx
 import React, { useState, useEffect } from "react";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa"; // Import cross icon
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -26,7 +25,7 @@ const Navbar = () => {
           className="md:hidden text-[#DA2877] text-lg focus:outline-none"
           data-aos="fade-left"
         >
-          <FaBars />
+          {isOpen ? <FaTimes /> : <FaBars />}
         </button>
 
         {/* Desktop Menu */}
