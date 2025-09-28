@@ -9,6 +9,7 @@ import Hero from './component/Hero';
 import OurLoveStory from './component/OurLoveStory';
 import WeddingEvents from './component/WeddingEvents';
 import OurMoments from './component/OurMoments';
+import JoinCelebration from './component/JoinCelebration';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
     <OurLoveStory></OurLoveStory>
     <WeddingEvents></WeddingEvents>
     <OurMoments></OurMoments>
+    <JoinCelebration></JoinCelebration>
       
     </>
   )
