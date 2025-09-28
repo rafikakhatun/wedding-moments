@@ -10,6 +10,7 @@ import OurLoveStory from './component/OurLoveStory';
 import WeddingEvents from './component/WeddingEvents';
 import OurMoments from './component/OurMoments';
 import JoinCelebration from './component/JoinCelebration';
+import Footer from './component/ Footer';
 
 function App() {
 
@@ -28,9 +29,10 @@ function App() {
     <WeddingEvents></WeddingEvents>
     <OurMoments></OurMoments>
     <JoinCelebration></JoinCelebration>
+    <Footer></Footer>
       
     </>
   )
 }
 
-export default App
+export default App;
