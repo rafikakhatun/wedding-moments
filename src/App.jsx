@@ -8,6 +8,7 @@ import Navbar from './component/Navbar';
 import Hero from './component/Hero';
 import OurLoveStory from './component/OurLoveStory';
 import WeddingEvents from './component/WeddingEvents';
+import OurMoments from './component/OurMoments';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
     <Hero></Hero>
     <OurLoveStory></OurLoveStory>
     <WeddingEvents></WeddingEvents>
+    <OurMoments></OurMoments>
       
     </>
   )
