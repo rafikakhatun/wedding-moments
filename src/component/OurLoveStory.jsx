@@ -26,7 +26,7 @@ const OurLoveStory = () => {
             <img
               src={boyImg}
               alt="man-img"
-              className="w-full h-full object-cover rounded-full"
+              className="w-full h-full object-cover rounded-full border-2 border-[#DA2877]"
             />
           </div>
           <h1 className="text-2xl font-semibold mt-4 text-stylish" data-aos="fade-up">
@@ -49,7 +49,7 @@ const OurLoveStory = () => {
             <img
               src={girlImg}
               alt="girl-img"
-              className="w-full h-full object-cover rounded-full"
+              className="w-full h-full object-cover rounded-full border-2 border-[#DA2877]"
             />
           </div>
           <h1 className="text-2xl font-bold mt-4 text-stylish" data-aos="fade-up">
